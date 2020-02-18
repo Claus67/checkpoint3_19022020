@@ -3,7 +3,7 @@ clear
 if [ -n "$1" ]; then
     classname="$1"
     classname="$(tr '[:lower:]' '[:upper:]' <<< ${classname:0:1})${classname:1}"
-
+    mkdir -p out
       javac -classpath out:lib/junit-4.12.jar -d out src/main/java/algo/${classname}.java 2> log/checkmethod_output.txt
 
     if [[ $(< log/checkmethod_output.txt) != "" ]]; then
