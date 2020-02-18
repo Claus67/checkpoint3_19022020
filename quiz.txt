@@ -1,0 +1,60 @@
+1. How do you declare and initialize an empty array of 4 integers called `tab`?
+int[] tab = new int[4];
+
+2. What are the differences between float and double?
+float=32bit -> double=64bit 
+
+3. What are the differences between char and Character?
+char is a primitive type -> Character is an object oriented type
+
+4. What is an instance?
+an instance is kind of a layer from an object
+
+5. Where is the reference in `Human bruce = new Human("Bruce");`?
+bruce is the reference
+
+6. Can an instance have multiple references?
+yes
+
+7. What does the protected access modifier mean?
+classes in the same package could access the protected method
+
+8. Where can I access a package-private class member?
+in this very class and with getters/setters 
+
+9. What is the purpose of the `final` keyword?
+to make something immutable
+
+10. What is the `static` keyword used for?
+to save something at one point, which is the same for every instance
+
+11. What naming convention should I use for a constant?
+all capitals
+
+12. When should I write comments in Java code?
+everytime it appears to be useful, e.g. before a method with nested conditions to explain them shortly
+
+13. What are the names of the roles defined by SCRUM?
+ProductOwner, ScrumMaster, CodeReviewer, Developer(TeamMember)
+
+14. Simplify the following code: if (test == false) { test = true; } else { test = false; }
+test == false ? true : false;
+
+15. In a Spring Boot project, what is a template?
+html file for the view
+
+16. In a Spring Boot project, what is a controller?
+a file where methods and routes are declared
+
+17. In a Spring Boot project, what is an entity?
+a file where the attributes are defined
+
+18. In a Spring Boot project, what is a repository?
+a file where are methods declared, which are able to access the database
+
+19. In a Spring Boot project, what is the purpose of the pom.xml file?
+to declare dependencies and build the project with maven, gradle or something like this
+
+20. Can you explain the Inversion of Control?
+you can declare something which should be filled, but you are not responsible for the filling -> filling comes from another point
+
