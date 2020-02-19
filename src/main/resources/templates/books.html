@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Books Administration</title>
@@ -7,10 +7,10 @@
 <body>
 <a href="/book">Add a new book</a>
 <h1>Book list</h1>
-<ul>
+<ul th:each="book : ${books}" th:object="${book}">
     <li>
-        <span>Title: $title</span><br>
-        <span>Author: $author</span>
+        <span th:text="'Title:' + *{title}">Title: $title</span><br>
+        <span th:text="'Author:' + *{author}">Author: $author</span>
     </li>
 </ul>
 <br><br>
