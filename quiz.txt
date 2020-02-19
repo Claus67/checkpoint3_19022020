@@ -1,0 +1,60 @@
+1. How do you declare and initialize an empty array of 4 integers called `tab`?
+int[] tab = new int[4];
+
+2. What are the differences between float and double?
+float and double are pretty much the same type, but float is 32bit and double 64bit. therefor double can take a larger range.
+
+3. What are the differences between char and Character?
+char is primitive type, Character a wrapper class to implement OOP concepts to char.
+
+4. What is an instance?
+A class defines a blueprint for an object, an instance/object of this blueprint is created at runtime.
+
+5. Where is the reference in `Human bruce = new Human("Bruce");`?
+bruce
+
+6. Can an instance have multiple references?
+yes
+
+7. What does the protected access modifier mean?
+Variables, methods and constructors can only be accessed by within the class or by subclasses.
+
+8. Where can I access a package-private class member?
+access is possible within its own class.
+
+9. What is the purpose of the `final` keyword?
+variable should not be changed at runtime.
+
+10. What is the `static` keyword used for?
+static is a single storage for all instance
+
+11. What naming convention should I use for a constant?
+BIG_SNAKE_CASE
+
+12. When should I write comments in Java code?
+if neccessary to understand function
+
+13. What are the names of the roles defined by SCRUM?
+Product Owner, Scrum Master, Development Team
+
+14. Simplify the following code: if (test == false) { test = true; } else { test = false; }
+test == false ? test = true;
+
+15. In a Spring Boot project, what is a template?
+template is a blueprint html containing variables which are filled at runtime.
+
+16. In a Spring Boot project, what is a controller?
+a definition of a route and logik for incoming URL requests
+
+17. In a Spring Boot project, what is an entity?
+a definition of an object corresponding to a db entry
+
+18. In a Spring Boot project, what is a repository?
+a place for collect methods to handle with entities
+
+19. In a Spring Boot project, what is the purpose of the pom.xml file?
+define the project, importing dependencies
+
+20. Can you explain the Inversion of Control?
+transfer control of object to framework
+
