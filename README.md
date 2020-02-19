@@ -25,6 +25,8 @@ Create a `city_lastname_firstname` branch, which will contain your progress. Rep
 
 At the root of your local repository, you will find a `Quiz.java` file. Compile and run it.
 
+> Tip: you need to compile it on your console using `javac Quiz.java` and afterwards run it, using `java Quiz`
+
 Answer the questions, it will generate a `quiz.txt` file.
 
 You can then edit the file manually to correct your answers.
@@ -107,6 +109,14 @@ A librarian friend of your instructor requires a website that would allow her to
 * a participant may borrow ("borrow") one or more books on a given date ("date").
 
 In order to quickly create a prototype, your mission is to create the database from this model using `Spring Data JPA`.
+
+##### HINT: Create database in advance
+```
+CREATE DATABASE IF NOT EXISTS `checkpoint3`;
+CREATE USER IF NOT EXISTS 'checkpoint3'@'localhost' IDENTIFIED BY 'L$m7Z3_KprruxqTt';
+GRANT ALL PRIVILEGES ON checkpoint3.* TO 'checkpoint3'@'localhost';
+```
+> Tip: in the application.properties file, you could change the property `spring.jpa.hibernate.ddl-auto` to `create-drop` while you're modeling. This will drop the database and re-create all tables on every server restart
 
 #### 2. Forms
 
