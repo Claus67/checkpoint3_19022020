@@ -1,0 +1,60 @@
+1. How do you declare and initialize an empty array of 4 integers called `tab`?
+int[] tab = new int[4];
+
+2. What are the differences between float and double?
+double has a bigger range than float
+
+3. What are the differences between char and Character?
+Character is the wrapper class, char the basic data type
+
+4. What is an instance?
+an object of a class
+
+5. Where is the reference in `Human bruce = new Human("Bruce");`?
+bruce holds a reference to the Human object "Bruce"
+
+6. Can an instance have multiple references?
+no, however each attribute can hold an own reference
+
+7. What does the protected access modifier mean?
+The attribute can only be accessed by the class itself, child classes or other package members
+
+8. Where can I access a package-private class member?
+just in the same class
+
+9. What is the purpose of the `final` keyword?
+the attribute cannot be changed after first initialization
+
+10. What is the `static` keyword used for?
+static mark attributs or methods, which are not object specific, but exist only once for all objects of the class
+
+11. What naming convention should I use for a constant?
+all caps
+
+12. When should I write comments in Java code?
+if the code does not explain itself => where necessary
+
+13. What are the names of the roles defined by SCRUM?
+scrum master, product owner, team member
+
+14. Simplify the following code: if (test == false) { test = true; } else { test = false; }
+test = !test;
+
+15. In a Spring Boot project, what is a template?
+the template is the html template, which is used on the view layer of the mvc model
+
+16. In a Spring Boot project, what is a controller?
+the controller handles the routes and contains the business logic for the corresponding routes. Moreover, it identifies the view template to be used for representing the result (in spring web applications)
+
+17. In a Spring Boot project, what is an entity?
+a class which represents a datatype of the application stored in the database
+
+18. In a Spring Boot project, what is a repository?
+a repository is an object handling the interaction with the database for a specific entity
+
+19. In a Spring Boot project, what is the purpose of the pom.xml file?
+the pom.xml holds the dependencies on libraries and tools used in the application
+
+20. Can you explain the Inversion of Control?
+in this concept, the control is passed from the application to a framework. Rather than the program using the framework, the framework uses the application (e.g. by creating objects or calling the logic of the program provided).
+
