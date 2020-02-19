@@ -8,7 +8,18 @@ public class Cipher {
      * @return encrypted sentence, eg : "wdfrv"
      */
     public static String caesar(String sentence, int shift) {
-
-        return null;
+    	
+    	String ciphered = "";
+    	for (int i = 0; i < sentence.length(); i++) {
+    		char c = (char) (sentence.charAt(i) + shift);
+    		if (c > 122) {
+    			c -= 26;
+    		} 
+    		if (c < 97) {
+    			c += 26;
+    		}
+    		ciphered += Character.toString(c);
+    	}
+        return ciphered;
     }
 }
