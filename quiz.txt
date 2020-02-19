@@ -1,0 +1,60 @@
+1. How do you declare and initialize an empty array of 4 integers called `tab`?
+int[] tab = new int[4]; 
+
+2. What are the differences between float and double?
+float: 4 bytes long, double: 8 bytes long
+
+3. What are the differences between char and Character?
+char: primitive data type, Character: non-primitive, reference type
+
+4. What is an instance?
+a specific object of a specific type
+
+5. Where is the reference in `Human bruce = new Human("Bruce");`?
+bruce
+
+6. Can an instance have multiple references?
+yes
+
+7. What does the protected access modifier mean?
+can be accessed only by the subclasses in other package or any class within the package of the protected members' class
+
+8. Where can I access a package-private class member?
+only within the specific class
+
+9. What is the purpose of the `final` keyword?
+once set could not be changed any more
+
+10. What is the `static` keyword used for?
+When a member is declared static, it can be accessed before any objects of its class are created, and without reference to any object.
+
+11. What naming convention should I use for a constant?
+uppercase
+
+12. When should I write comments in Java code?
+whenever it would be useful
+
+13. What are the names of the roles defined by SCRUM?
+Product Owner, Scrum Master, Developer Team
+
+14. Simplify the following code: if (test == false) { test = true; } else { test = false; }
+(!test) ? test = true : test = false;
+
+15. In a Spring Boot project, what is a template?
+would be accessed during runtime and executed (e. g. by Thymeleaf)
+
+16. In a Spring Boot project, what is a controller?
+manages the routes within the project to access functions and html-pages
+
+17. In a Spring Boot project, what is an entity?
+definition of object including their attributes and relations, if given
+
+18. In a Spring Boot project, what is a repository?
+a bunch of helpful code, mostly extended by other libraries(repositories)
+
+19. In a Spring Boot project, what is the purpose of the pom.xml file?
+describes the setup of the project including their dependencies
+
+20. Can you explain the Inversion of Control?
+Inversion of Control (IoC) is a design pattern which delegates the creation of instances to a framework or container.
+
