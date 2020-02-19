@@ -1,0 +1,60 @@
+1. How do you declare and initialize an empty array of 4 integers called `tab`?
+int tab[] = new tab[4];
+
+2. What are the differences between float and double?
+float und double sind Komma-Zahlen; double ist doppelt so genau im Vergleich zu float aber benötigt auch doppelt so viel Speicherplatz
+
+3. What are the differences between char and Character?
+char ist ein einfacher Datentyp, wie z.b. auch int. Character representiert auch einzelne Buchstaben/Zahlen, ist aber ein Object/höherwertigerer Datentyp.
+
+4. What is an instance?
+Instance sind Variablen, die einem Object zugeordnet sind, z.B. Car car = new Car(); --> die Instance gehört zum Objekt und ist nur dort bekannt. Nicht aber in der ganzen Klasse. Sonst wäre es eine Klassen-Variable.
+
+5. Where is the reference in `Human bruce = new Human("Bruce");`?
+bruce is the reference...
+
+6. Can an instance have multiple references?
+yes.
+
+7. What does the protected access modifier mean?
+Modifier sind z.B. private, public aber auch protected: Protected ist fast wie public, es ist aber nicht in fremden packages nutzbar - aber z.B. in anderen Klassen des gleichen Packages
+
+8. Where can I access a package-private class member?
+Nur in der eigenen Klasse (in der klasse, wo es declariert wurde).
+
+9. What is the purpose of the `final` keyword?
+Final bedeutet, dass eine Variable nicht mehr verändert werden kann. Z.B. PI bleibt eine Konstante und ist somit nicht veränderbar - eben final.
+
+10. What is the `static` keyword used for?
+Ein static object gehört speziell zu einer klasse und nur zu dieser - und kann nicht in anderen klassen verwendet werden.
+
+11. What naming convention should I use for a constant?
+Großbuchstaben: PI oder MAUERFALL...
+
+12. When should I write comments in Java code?
+Wenn es zur Erklärung beiträgt: Es sollte nicht zu viele Erklärungen geben, nur soviel, die dem Leser wirklich nützen...
+
+13. What are the names of the roles defined by SCRUM?
+Scrum Master, Product Owner, Entwicklungsteam
+
+14. Simplify the following code: if (test == false) { test = true; } else { test = false; }
+if (test == false) {test = true;}
+
+15. In a Spring Boot project, what is a template?
+template ist eine html-Seite in der etwas angezeigt wird bzw. eingegeben werden kann.
+
+16. In a Spring Boot project, what is a controller?
+Im Controller wird definiert, was passiert und auf welche Seiten gespruchgen werden: Z.B. /car würde auf auf eine car.html Seite springen, würde dies aufgerufen (vom Browser oder vom Program/ Controller.
+
+17. In a Spring Boot project, what is an entity?
+Eine Entity ist eine Klasse wie z.B. Book.class: Hier sind alle "Eigenschaften" angegeben, z.b. Preis, ISBN-Nummer, Aei Car.java wäre es z.B. PS, Farbe, ...
+
+18. In a Spring Boot project, what is a repository?
+Der Speicher - z.B. MySQL
+
+19. In a Spring Boot project, what is the purpose of the pom.xml file?
+Hier stehen die dependencies (Abhängigkeiten) drin
+
+20. Can you explain the Inversion of Control?
+Magie bei Spring: Hier sind Objekte nicht vorhanden wie wir es ohne Spring machen müssten.
+
